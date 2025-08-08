@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Presupuesto Web - Fepmaq s.a</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Presupuesto página web empresarial</h1>
+        <p>Para: <strong>Fepmaq s.a</strong></p>
+        <p>Fecha: <span id="fecha"></span></p>
+    </header>
+
+    <main>
+        <!-- Descripción del proyecto -->
+        <section>
+        <h2>1. Descripción del Proyecto</h2>
+        <p>Desarrollo de un sitio web institucional moderno, responsive y optimizado para dispositivos móviles, con hasta 5 secciones principales: Inicio, Sobre Nosotros, Servicios, Galería y Contacto.</p>
+        </section>
+
+        <!-- Detalle de servicios y precios -->
+        <section>
+        <h2>2. Detalle de Servicios</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Servicio</th>
+                <th>Descripción</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Diseño UI/UX</td>
+                <td>Diseño visual personalizado basado en identidad de marca</td>
+            </tr>
+            <tr>
+                <td>Desarrollo Frontend</td>
+                <td>Implementación HTML, CSS y JS responsive</td>
+            </tr>
+            <tr>
+                <td>SEO Básico</td>
+                <td>Optimización para buscadores (etiquetas, estructura, velocidad)</td>
+            </tr>
+            <tr>
+                <td>Formulario de Contacto</td>
+                <td>Formulario funcional conectado a email</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$400.000</strong></td>
+            </tr>
+            </tfoot>
+        </table>
+        </section>
+
+        <!-- Tiempos de entrega -->
+        <section>
+        <h2>3. Tiempos Estimados</h2>
+        <ul>
+            <li>Duración estimada: 45 días</li>
+            <li>Inicio tras la confirmación y pago inicial</li>
+            <li>Se entregará versión previa para revisión antes de la publicación</li>
+        </ul>
+        </section>
+
+        <!-- Forma de entrega -->
+        <section>
+        <h2>4. Forma de Entrega</h2>
+        <p>El sitio se entregará publicado en un entorno en línea (Vercel u otro) y también podrá entregarse el código fuente en formato ZIP o repositorio privado en GitHub.</p>
+        </section>
+
+        <!-- Condiciones comerciales -->
+        <section>
+        <h2>5. Condiciones Comerciales</h2>
+        <ul>
+            <li>Pago: 50% al inicio, 50% contra entrega</li>
+            <li>Medios de pago aceptados: Transferencia bancaria / Mercado Pago</li>
+            <li>Vigencia de este presupuesto: 15 días</li>
+            <li>Incluye hasta 2 revisiones de contenido o diseño sin costo</li>
+            <li>No incluye dominio ni hosting a menos que se indique lo contrario</li>
+        </ul>
+        </section>
+
+        <!-- Mantenimiento y soporte -->
+        <section>
+        <h2>6. Mantenimiento y Soporte</h2>
+        <p>Se ofrece soporte técnico gratuito por 7 días posteriores a la entrega. Opcionalmente, se puede contratar mantenimiento mensual con actualizaciones, backups y soporte por $20.000/mes.</p>
+        </section>
+
+        <!-- Extras opcionales -->
+        <section>
+        <h2>7. Extras Opcionales</h2>
+        <ul>
+            <li>Hosting: ver plan de hosting que mejor se adapta al proyecto</li>
+        </ul>
+        </section>
+
+        <!-- Cierre -->
+        <section>
+        <h2>8. Agradecimiento</h2>
+        <p>Gracias por considerar este presupuesto. Estoy a disposición para cualquier consulta adicional o modificación que requieran. Será un gusto trabajar juntos.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Ivo Konstantinow · <a href="mailto:ivokonstantinow@gmail.com">Contactar</a></p>
+    </footer>
+
+    <script>
+        // Mostrar la fecha actual
+        document.getElementById("fecha").textContent = new Date().toLocaleDateString("es-AR");
+    </script>
+</body>
+</html>
